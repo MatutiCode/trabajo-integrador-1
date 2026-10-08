@@ -20,6 +20,10 @@ npm install
 
 2. Crear una base de datos vacía en MySQL (las tablas las crea Sequelize al iniciar).
 
+
+
+
+
 3. Copiar `.env.example` a `.env` y completar las variables:
 
 ```env
@@ -44,6 +48,15 @@ npm start       # modo normal
 
 Si todo está bien, la consola muestra "Conexión a la base de datos establecida correctamente".
 <!--
+
+Remove-Item -Recurse -Force .git
+
+git rm --cached backend
+
+git rm -f .gitmodules
+
+
+
 ## Estructura
 
 ```
