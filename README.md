@@ -4,11 +4,6 @@ API RESTful desarrollada en Node.js y Express para la gestión de un blog person
 
 ## Tecnologías
 
-<!--
-
-asdkjasjdhaskjhdkjasd
-
--->
 
 
 Node.js, Express 5, Sequelize, MySQL, JWT (cookies httpOnly), bcrypt y express-validator.
@@ -48,7 +43,7 @@ npm start       # modo normal
 ```
 
 Si todo está bien, la consola muestra "Conexión a la base de datos establecida correctamente".
-
+<!--
 ## Estructura
 
 ```
@@ -257,3 +252,4 @@ Al probar las etiquetas se detectaron estos puntos del código pendientes de cor
 - `DELETE /api/tags/:id` responde 400 porque la ruta usa `validateTag`, que exige `name` en el body.
 - `GET /api/tags/:id` no está disponible: la ruta está declarada con `/` en lugar de `/:id`.
 - `DELETE /api/users/:id` responde 200 pero no modifica el registro (usa un campo `is_active` que no existe en el modelo).
+-->
