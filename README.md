@@ -4,6 +4,13 @@ API RESTful desarrollada en Node.js y Express para la gestión de un blog person
 
 ## Tecnologías
 
+<!--
+
+asdkjasjdhaskjhdkjasd
+
+-->
+
+
 Node.js, Express 5, Sequelize, MySQL, JWT (cookies httpOnly), bcrypt y express-validator.
 
 ## Requisitos e Instalación
